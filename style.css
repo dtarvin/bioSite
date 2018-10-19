@@ -33,6 +33,16 @@ a {
 a:visited {
     color: #5d5d5d;
 }
-bethany {
+.bethany {
     float: left;
+}
+.navbar-nav {
+    background-color: #0e1a40;
+    color: #946b2d;
+}
+.intro-headings {
+    padding: 5em;
+}
+#timeline {
+    clear: both;
 }
