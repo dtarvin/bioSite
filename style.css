@@ -1,67 +1,80 @@
 html {
     font-size: 16px;
 }
-
 body {
-    background-color: #946b2d;
-    background-image: url("images/Ravenclaw_Crest_opaque.png");
-    background-repeat: no-repeat;
-    background-size: contain;
     color: #222f5b;
+    background-color: #946b2d;
+    height: 100%;
 }
-
 h1 {
     font-family: 'Marck Script', cursive;
     font-size: 3.052em;
 }
-
 h2, h3 {
     font-family: 'Alegreya', serif;
 }
-
 h2 {
     font-size: 2.441em;
 }
-
 h3 {
     font-size: 1.953em;
 }
-
 p {
     font-family: 'Dosis', sans-serif;
     font-size: 1.25em;
 }
-
 a {
-    color: #0e1a40;
+    color: #946b2d;
     list-style-type: none;
     text-decoration: none;
 }
-
 a:visited {
     color: #5d5d5d;
 }
-
 .bethany {
     float: left;
 }
-
 .navbar-nav {
-    background-color: #0e1a40;
+    background-color: #946b2d;
     color: #946b2d;
 }
-
 .intro-headings {
     padding: 5em;
 }
-
 #timeline {
     clear: both;
 }
 
 .main {
+    background-image: url("images/Ravenclaw_Crest_opaque.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
     display: grid;
-    grid-column: 1;
-    grid-row: 2;
-    place-items: center center;
+}
+
+.main>.intro-para {
+    grid-column: 2;
+    grid-row: 1;
+    /* place-items: center left; */
+    place-items: middle right;
+}
+
+.school-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header {
+    text-align: center;
+}
+
+blockquote {
+    background: #5d5d5d;
+    border-radius: 5px;
+}
+
+blockquote p {
+    padding: 15px;
 }
