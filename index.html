@@ -6,39 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bethany's Bio Site</title>
+
+    <!-- *************************************************************************** -->
+    <!-- Comment out stylesheets on codepen but uncomment them on VS Code and Github -->
+    <!-- *************************************************************************** -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://dtarvin.github.io/bioSite/style.css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya|Dosis|Marck+Script" rel="stylesheet">
 </head>
 <body>
     
     <div id="container">
         
-        <nav class="navbar navbar-expand-sm bg-light">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#timeline">Timeline</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#schooling">Schooling</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#activities">Activities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#interests">Interests</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#family">Family</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#friends">Friends</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav class="navbar navbar-expand-lg">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#timeline">Timeline</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schooling">Schooling</a>
+                </li>
+                    
+                <li class="nav-item">
+                    <a class="nav-link" href="#activities">Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#interests">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#family">Family</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#friends">Friends</a>
+                </li>
+            </ul>
+        </nav>
         
         <div class="main">
-            
+            <!-- ******************************************************************** -->
+            <!-- Change links to images when going between Codepen and VS Code/Github -->
+            <!-- ******************************************************************** -->
+
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+
             <figure class="bethany">
                 <img src="images/Bethany.png" alt="Bethany">
                 <figcaption>Bethany</figcaption>
@@ -52,13 +65,17 @@
                                      
         </div>
         
-        <div id="timeline">
+        <div class="timeline" id="timeline">
                           
             <h2 class="section-header">What are some memorable events in Bethany's life?</h2>
                           
             <div class="container right">
                 <div class="content">
-                                    
+                    
+                    <!-- ***** -->
+                    <!-- Image -->
+                    <!-- ***** -->
+
                     <h3>1999</h3>
                     <p><a href="images/babypic.jpg">Bethany is born</a></p>
                                                    
@@ -68,6 +85,10 @@
             <div class="container right">
                 <div class="content">
                                     
+                    <!-- ***** -->
+                    <!-- Image -->
+                    <!-- ***** -->
+
                     <h3>2000</h3>
                     <p><a href="images/baptism.jpg">Bethany is baptized</a></p>
                                                    
@@ -77,6 +98,10 @@
             <div class="container right">
                 <div class="content">
                                     
+                    <!-- ***** -->
+                    <!-- Image -->
+                    <!-- ***** -->
+                    
                     <h3>2007</h3>
                     <p><a href="images/Bethany_main_page_pencil_sketch.jpg">Bethany's First Communion</a></p>
                                                                            
@@ -85,7 +110,11 @@
                                                                            
             <div class="container right">
                 <div class="content">
-                                    
+                    
+                    <!-- ***** -->
+                    <!-- Image -->
+                    <!-- ***** -->
+
                     <h3>2014</h3>
                     <p><a href="images/confirmation.jpg">Bethany's Confirmation</a></p>
                                                         
@@ -94,7 +123,11 @@
                                                         
             <div class="container right">
                 <div class="content">
-                                    
+                    
+                    <!-- ***** -->
+                    <!-- Image -->
+                    <!-- ***** -->
+
                     <h3>2018</h3>
                     <p><a href="images/braces.jpg">Bethany gets braces</a></p>
                                                   
@@ -103,7 +136,11 @@
                                                   
             <div class="container right">
                 <div class="content">
-                                    
+                    
+                    <!-- ***** -->
+                    <!-- Image -->
+                    <!-- ***** -->
+
                     <h3>2018</h3>
                     <p><a href="images/highschool.jpg">Bethany graduates high school</a></p>
                                                       
@@ -111,175 +148,242 @@
             </div>
                                                       
         </div>
+
         <div id="schooling">
                            
             <h2 class="section-header">Where did Bethany go to school?</h2>
-            <p>Click on a logo to learn more</p>
+            <p class="click-stmt">Click on a logo to learn more</p>
                            
-            <img class="school-logo" src="#" alt="logo for Our Lady of Faith">
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
+            <a href="#expando1"><img class="school-logo" src="#" alt="logo for Our Lady of Faith"></a>
                                                          
-            <p>
-                Bethany began school at the age of 6. She was homeschooled through Our Lady of Faith
+            <div class="expando" id="expando1">
+                <p>Bethany began school at the age of 6. She was homeschooled through Our Lady of Faith
                 Catholic Homeschool from Kindergarten through Fourth Grade. After a brief stint in 
                 public school, she returned to Our Lady of Faith from Eigth Grade until her
-                graduation from High School.
-            </p>                                                     
+                graduation from High School.</p>                                                     
                       
-            <cite>Bethany says:</cite>
-            <blockquote>
-                <p>I really loved being homeschooled. In public school a lot of the teachers don't care 
+                <cite>Bethany says:</cite>
+                <blockquote>
+                    <p>I really loved being homeschooled. In public school a lot of the teachers don't care 
                 about you, and the kids can be really cruel. Plus, if you fall behind, it is hard to
                 catch up. In Homeschool, you can stay on a topic until you master it. Plus the other 
                 kids I've met in the Homeschool community are really nice.</p>
-            </blockquote> 
+                </blockquote>
+            </div> 
 
-            <img class="school-logo" src="images/picotte_elementary_logo.png" alt="logo for Picotte Elementary" width=200px>
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
+            <a href="#expando2"><img class="school-logo" src="https://dtarvin.github.io/bioSite/images/picotte_elementary_logo.png" alt="logo for Picotte Elementary" width=200px></a>
 
-            <p>Bethany attended Picotte Elementary from fourth through sixth grade. during
+            <div class="expando" id="expando2">
+                <p>Bethany attended Picotte Elementary from fourth through sixth grade. during
                 that time she took violin lessons and participated in the annual singing 
                 program. She even had a solo in fourth grade, something that had not
                 occurred before for the program (solos were usually given to sixth
                 graders). Her class also took a tour of the Nebraska State Capitol
-                Building.
-            </p>
+                Building.</p>
 
-            <cite>Bethany says:</cite>
-            <blockquote>
-                <p>I really enjoyed singing in the program, and I enjoyed my trip to the
-                State Capitol. The teachers were very friendly.</p>
-            </blockquote>
+                <cite>Bethany says:</cite>
+                <blockquote>
+                    <p>I really enjoyed singing in the program, and I enjoyed my trip to the
+                        State Capitol. The teachers were very friendly.</p>
+                </blockquote>
+            </div>
 
-            <img class="school-logo" src="images/Beveridge_magnet_logo.png" alt="logo for Beveredge Middle School">
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
+            <a href="#expando3"><img class="school-logo" src="https://dtarvin.github.io/bioSite/images/Beveridge_magnet_logo.png" alt="logo for Beveredge Middle School"></a>
 
-            <p>Bethany went to Beveridge Middle School for Seventh Grade. During that
-                time she participated in a production of Little Shop of Horrors and ___.
-            </p>
+            <div class="expando" id="expando3">
+                <p>Bethany went to Beveridge Middle School for Seventh Grade. During that
+                time she participated in a production of Little Shop of Horrors and ___.</p>
 
-            <cite>Bethany says:</cite>
-            <blockquote>
-                <p>I really enjoyed being involved with the musicals at Beveridge.
-                It was my first experience acting on stage. I hope I get a chance
-                to do it again sometime.</p>
-            </blockquote>
+                <cite>Bethany says:</cite>
+                <blockquote>
+                    <p>I really enjoyed being involved with the musicals at Beveridge.
+                    It was my first experience acting on stage. I hope I get a chance
+                    to do it again sometime.</p>
+                </blockquote>
+            </div>
                                                         
-            <img class="school-logo" src="images/metropolitan_community_college_logo.png" alt="logo for Metropolitan Community College" width=200px>   
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
+            <a href="#expando4"><img class="school-logo" src="https://dtarvin.github.io/bioSite/images/metropolitan_community_college_logo.png" alt="logo for Metropolitan Community College" width=200px></a>   
                                                                                                         
-            <p>
-                Bethany is currently a student at Metropolitan Community College in Omaha, Nebraska. 
+            <div class="expando" id="expando4">
+                <p>Bethany is currently a student at Metropolitan Community College in Omaha, Nebraska. 
                 She actually started attending Metro her senior year of high school by means of a Nebraska 
-                Ace Scholarship. She is studying Early Childhood Development.
-            </p>
+                Ace Scholarship. She is studying Early Childhood Development.</p>
                
-            <cite>Bethany says:</cite>
-            <blockquote>
-                <p>I'm really enjoying my classes at Metro. I do find college a bit of a challenge, 
-                but it's definitely a challenge I'm prepared for. My classes have all been great so 
-                far, and I'm meeting lots of new people.</p>
-            </blockquote>        
+                <cite>Bethany says:</cite>
+                <blockquote>
+                    <p>I'm really enjoying my classes at Metro. I do find college a bit of a challenge, 
+                    but it's definitely a challenge I'm prepared for. My classes have all been great so 
+                    far, and I'm meeting lots of new people.</p>
+                </blockquote>
+            </div>        
                                                                                                         
         </div>
+
         <div id="activities">
                             
             <h2 class="section-header">What activities has Bethany been involved in?</h2>
+            <p class="click-stmt">Click on an activity to learn more</p>
                             
-            <h3>Turner Dance</h3>
+            <a href="#expando5">
+                <h3>Turner Dance</h3>
+            </a>
                             
-            <p>
-                Bethany has been dancing since she was 3 years old. She is currently a student and a 
-                teacher's assistant at Turner Dance.
-            </p>
+            <div class="expando" id="expando5">
+                <p>Bethany has been dancing since she was 3 years old. She is currently a student and a 
+                teacher's assistant at Turner Dance.</p>
                             
-            <blockquote>
-                <p>Bethany is the most pure in heart person I have ever met.
-                Children are magically drawn to her innate ability to
-                engage their spirits and creativity. Bethany is a very 
-                empathetic individual and would do anything in her power 
-                to help someone.</p>
-            </blockquote>
-            <cite>- Diane Turner, owner of Turner Dance</cite>
+                <blockquote>
+                    <p>Bethany is the most pure in heart person I have ever met.
+                    Children are magically drawn to her innate ability to
+                    engage their spirits and creativity. Bethany is a very 
+                    empathetic individual and would do anything in her power 
+                    to help someone.</p>
+                </blockquote>
+                <cite>- Diane Turner, owner of Turner Dance</cite>
+            </div>
                             
-            <h3>St. Vincent de Paul Youth Group</h3>
+            <a href="#expando6">
+                <h3>St. Vincent de Paul Youth Group</h3>
+            </a>
                             
-            <p>
-                Bethany has been involved in her church's youth group throughout high school. 
-                Now that she has graduated, she assists with the program.
-            </p>
+            <div class="expando" id="expando6">
+                <p>Bethany has been involved in her church's youth group throughout high school. 
+                Now that she has graduated, she assists with the program.</p>
                             
-            <blockquote>
-                <p>Bethany definitely has a strong faith. She participated in the group very
-                well.</p>
-            </blockquote>
-            <cite>- Steve Nespor, former director, St. Vincent de Paul Youth Group</cite>
+                <blockquote>
+                    <p>Bethany definitely has a strong faith. She participated in the group very
+                    well.</p>
+                </blockquote>
+                <cite>- Steve Nespor, former director, St. Vincent de Paul Youth Group</cite>
+            </div>
                             
-            <h3>Camp Fun 'n Faith</h3>
+            <a href="#expando7">
+                <h3>Camp Fun 'n Faith</h3>
+            </a>
                             
-            <p>
-                Bethany has attended summer camp at Pro Sanctity's Camp Fun 'n Faith every year since 
+            <div class="expando" id="expando7">
+                <p>Bethany has attended summer camp at Pro Sanctity's Camp Fun 'n Faith every year since 
                 2011. For the last four years, she has also worked as a junior counselor for the 
                 younger kids' day camp. Bethany hopes to continue working as a full counselor in the
-                coming years.
-            </p>
+                coming years.</p>
                             
-            <blockquote>
-                <p>Bethany is a treasure. She is always so helpful and a joy to be around.
-                She works very hard as a junior counselor, and she always makes things fun for the 
-                kids in her group.</p>
-            </blockquote>
-            <cite>- Oblate, Pro Sanctity</cite>
+                <blockquote>
+                    <p>Bethany is a treasure. She is always so helpful and a joy to be around.
+                    She works very hard as a junior counselor, and she always makes things fun for the 
+                    kids in her group.</p>
+                </blockquote>
+                <cite>- Oblate, Pro Sanctity</cite>
+            </div>
                             
-            <h3>Steubenville Conference</h3>
+            <a href="#expando8">
+                <h3>Steubenville Conference</h3>
+            </a>
                             
-            <p>
-                Every year, Steubenville College in Ohio presents a series of conferences around the 
+            <div class="expando" id="expando8">
+                <p>Every year, Steubenville College in Ohio presents a series of conferences around the 
                 country. Bethany has been able to attend for the last three years. She even got to 
-                see Matt Maher in concert one of the years!
-            </p>
+                see Matt Maher in concert one of the years!</p>
                             
-            <blockquote>
-                <p>I was a chaperone during a few of the conferences Bethany attended. I could 
-                tell she was having a lot of fun and that the experience was really strengthening her faith.</p>
-            </blockquote>
-            <cite>- Michelle Ramaekers</cite>
+                <blockquote>
+                    <p>I was a chaperone during a few of the conferences Bethany attended. I could 
+                    tell she was having a lot of fun and that the experience was really strengthening her faith.</p>
+                </blockquote>
+                <cite>- Michelle Ramaekers</cite>
+            </div>
                             
         </div>
+
         <div id="interests">
                            
             <h2 class="section-header">What are some of Bethany's interests?</h2>
                            
             <h3>Bethany loves to read:</h3>
-                           
-            <a href="http://www.amazon.com/redqueen"><img src="images/redqueen.jpg" alt="Red Queen by Sandra Maas"></a>
-            <a href="http://www.amazon.com/redqueen"><img src="images/redqueen.jpg" alt="Red Queen by Sandra Maas"></a>
-            <a href="http://www.amazon.com/redqueen"><img src="images/redqueen.jpg" alt="Red Queen by Sandra Maas"></a><br>
+            
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+
+            <a href="https://www.amazon.com/gp/bookseries/B010FMSFDG">
+                <img src="https://dtarvin.github.io/bioSite/images/Juliette_Chronicles.jpg" alt="The Juliette Chronicles">
+            </a>
+            <a href="https://www.amazon.com/Jackson-Olympians-Paperback-covers-poster/dp/1484707230/ref=sr_1_8?ie=UTF8&qid=1540325993&sr=8-8&keywords=percy+jackson">
+                <img src="https://dtarvin.github.io/bioSite/images/Lightning_Thief_2.jpg" alt="The Percy Jackson Series" width="180px">
+            </a>
+            <a href="https://www.amazon.com/Throne-Glass-Book-ebook/dp/B007N6JEII/ref=sr_1_2?ie=UTF8&qid=1540331017&sr=8-2&keywords=throne+of+glass+series">
+                <img src="https://dtarvin.github.io/bioSite/images/Throne_of_Glass.jpg" alt="Throne of Glass Series by Sandra Maas" width="150px">
+            </a>
+            <a href="https://www.amazon.com/Cinder-Marissa-Meyer/dp/1250007208/ref=sr_1_3?ie=UTF8&qid=1540334210&sr=8-3&keywords=lunar+chronicles&dpID=41sw7rsmCrL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch">
+                <img src="https://dtarvin.github.io/bioSite/images/Cinder.jpg" alt="The Lunar Chronicles" width="150px">
+            </a><br>
             
             <h3>Bethany loves to draw:</h3>
-            
-             <figure>
-                <img src="images/Damian_Wayne.jpg" alt="picture of Damian Wayne as Robin" width="150px">
-                <figcaption>Damian Wayne as Robin</figcaption>
-             </figure>
 
-             <figure>
-                <img src="images/Naruto.jpg" alt="picture of Neji Hyuga from Naruto" width="150px">
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+
+            <figure>
+                <img src="https://dtarvin.github.io/bioSite/images/Damian_Wayne.jpg" alt="picture of Damian Wayne as Robin" width="150px">
+                <figcaption>Damian Wayne as Robin</figcaption>
+            </figure>
+
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+             
+            <figure>
+                <img src="https://dtarvin.github.io/bioSite/images/Naruto.jpg" alt="picture of Neji Hyuga from Naruto" width="150px">
                 <figcaption>Neji Hyuga (Naruto)</figcaption>
             </figure>
 
-             <figure>
-                <img src="images/character_1.jpg" alt="picture of Maka Albarn from Soul Eater" width="150px">
-                <figcaption>Maka Albarn (Soul Eater)</figcaption>
-             </figure>
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
 
-             <figure>
-                <img src="images/character_2.jpg" alt="picture of Edward Elric from Full Metal Alchemist" width="150px">
+            <figure>
+                <img src="https://dtarvin.github.io/bioSite/images/character_1.jpg" alt="picture of Maka Albarn from Soul Eater" width="150px">
+                <figcaption>Maka Albarn (Soul Eater)</figcaption>
+            </figure>
+
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+             
+            <figure>
+                <img src="https://dtarvin.github.io/bioSite/images/character_2.jpg" alt="picture of Edward Elric from Full Metal Alchemist" width="150px">
                 <figcaption>Edward Elric (Full Metal Alchemist)</figcaption>
             </figure>
                                                                                                        
             <h3>Bethany loves to practice the violin:</h3>
 
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
             <img src="www.youtube.com/#" alt="video of Bethany playing violin">
 
             <h3>And, of course, Bethany loves to dance!</h3>
 
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
             <img src="www.youtube.com/#" alt="video of Bethany at recital">
 
         </div>
@@ -343,10 +447,16 @@
                 </div>
                                                        
             </div>
+            
             <div id="family-quotes">
                                    
                 <h2 class="section-header">What do Bethany's family members say about her?</h2>
+                <p class="click-stmt">Click on an image to learn more</p>
                 
+                <!-- ***** -->
+                <!-- Image -->
+                <!-- ***** -->  
+              
                 <figure>
                     <img src="images/amy.jpg" alt="picture of Bethany's mom Amy">
                     <figcaption>Bethany's mom Amy</figcaption>
@@ -357,6 +467,10 @@
                     helping me around the house with the kids. I don't know
                     what I'd do without her.</p>
                 </blockquote>
+                
+                <!-- ***** -->
+                <!-- Image -->
+                <!-- ***** -->
                 
                 <figure>
                     <img src="images/david.jpg" alt="picture of Bethany's dad David">
@@ -369,6 +483,10 @@
                     what I'd do without her.</p>
                 </blockquote>
 
+                <!-- ***** -->
+                <!-- Image -->
+                <!-- ***** -->
+                
                 <figure>
                     <img src="images/joseph.jpg" alt="picture of Bethany's brother Joseph">
                     <figcaption>Bethany's brother Joseph</figcaption>
@@ -380,6 +498,10 @@
                     what I'd do without her.</p>
                 </blockquote>
 
+                <!-- ***** -->
+                <!-- Image -->
+                <!-- ***** -->
+                
                 <figure>
                     <img src="images/zachary.jpg" alt="picture of Bethany's brother Zachary">
                     <figcaption>Bethany's brother Zachary</figcaption>
@@ -391,6 +513,10 @@
                     what I'd do without her.</p>
                 </blockquote>
 
+                <!-- ***** -->
+                <!-- Image -->
+                <!-- ***** -->
+                
                 <figure>
                     <img src="images/noah.jpg" alt="picture of Bethany's brother Noah">
                     <figcaption>Bethany's brother Noah</figcaption>
@@ -402,6 +528,10 @@
                     what I'd do without her.</p>
                 </blockquote>
 
+                <!-- ***** -->
+                <!-- Image -->
+                <!-- ***** -->
+                
                 <figure>
                     <img src="images/thomas.jpg" alt="picture of Bethany's brother Thomas">
                     <figcaption>Bethany's brother Thomas</figcaption>
@@ -413,8 +543,12 @@
                     what I'd do without her.</p>
                 </blockquote>
 
+                <!-- ***** -->
+                <!-- Image -->
+                <!-- ***** -->
+                
                 <figure>
-                    <img src="images/anna.jpg" alt="picture of Bethany's sister Anna" width="100px">
+                    <img src="https://dtarvin.github.io/bioSite/images/anna.jpg" alt="picture of Bethany's sister Anna" width="100px">
                     <figcaption>Bethany's sister Anna</figcaption>
                 </figure>
 
@@ -431,38 +565,65 @@
         <div id="friends">
                          
             <h2 class="section-header">What do Bethany's friends say about her?</h2>
+            <p class="click-stmt">Click on an image to learn more</p>
                       
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
             <figure>
-                <img src="images/austin.jpg" alt="picture of Bethany's friend Austin">
+                <a href="#expando9"><img src="https://dtarvin.github.io/bioSite/images/austin.jpg" alt="picture of Bethany's friend Austin" width="200px"></a>
                 <figcaption>Austin</figcaption>
             </figure>
 
-            <blockquote>
-                <p>Bethany has been a great friend to me. I hope when I 
-                have kids they grow up to be like Bethany!</p>
-            </blockquote>
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
+            <div class="expando" id="expando9">
+                <blockquote>
+                    <p>Bethany has been a great friend to me. I hope when I 
+                    have kids they grow up to be like Bethany!</p>
+                </blockquote>
+            </div>
 
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
             <figure>
-                <img src="images/sapphire.jpg" alt="picture of Bethany's friend Sapphire">
+                <a href="#expando11"><img src="https://dtarvin.github.io/bioSite/images/sapphire.jpg" alt="picture of Bethany's friend Sapphire" width="200px"></a>
                 <figcaption>Sapphire</figcaption>
             </figure>
 
-            <blockquote>
-                <p>Bethany is so sweet and so fun to do things with. I'm very 
-                grateful to have a friend like her.</p>
-            </blockquote>
+            <div class="expando" id="expando11">
+                <blockquote>
+                    <p>Bethany is so sweet and so fun to do things with. I'm very 
+                    grateful to have a friend like her.</p>
+                </blockquote>
+            </div>
 
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
             <figure>
-                <img src="images/mariyka.jpg" alt="picture of Bethany's friend Mariyka">
+                <a href="#expando12"><img src="https://dtarvin.github.io/bioSite/images/mariyka.jpg" alt="picture of Bethany's friend Mariyka" width="200px"></a>
                 <figcaption>Mariyka</figcaption>
             </figure>
 
-            <blockquote>
-                <p>I love Bethany! She is so fun to be around. We sit 
-                around and drink Dr. Pepper together. It's lots of 
-                fun!</p>
-            </blockquote>
+            <div class="expando" id="expando12">
+                <blockquote>
+                    <p>I love Bethany! She is so fun to be around. We sit 
+                    around and drink Dr. Pepper together. It's lots of 
+                    fun!</p>
+                </blockquote>
+            </div>
 
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
             <figure>
                 <img src="images/rochelle.jpg" alt="picture of Mariyka's mom Rochelle">
                 <figcaption>Rochelle</figcaption>
@@ -476,17 +637,20 @@
                 friends with.</p>
             </blockquote>
 
+            <!-- ***** -->
+            <!-- Image -->
+            <!-- ***** -->
+            
             <figure>
-                <img src="images/jessica.jpg" alt="picture of Bethany's friend Jessica">
+                <a href="#expando10"><img src="https://dtarvin.github.io/bioSite/images/jessica.jpg" alt="picture of Bethany's friend Jessica" width="200px"></a>
                 <figcaption>Jessica</figcaption>
             </figure>
 
-            <blockquote>
-                <p>Bethany and I have a great connection through our love of 
-                reading. We go to bookstores together and have our favorite 
-                authors in common. It's really nice to be able to share my 
-                interests with someone like Bethany.</p>
-            </blockquote>
+            <div class="expando" id="expando10">
+                <blockquote>
+                    <p>Bethany is one of the kindest souls I have ever had the pleasure of meeting. It is truly a blessing to have such a great friend who shares the same love of reading that I do. She is more fun than anyone or anything I know, including bubble wrap.</p>
+                </blockquote>
+            </div>
 
         </div>
         
