@@ -398,8 +398,10 @@ body {
   font-weight: bold;
   padding: 15px 20px;
   border-radius: 50%;
-  background-color: #ED8D8D;
-  color: #4D4545;
+  // background-color: #ED8D8D;
+    background-color: red;
+  // color: #4D4545;
+    color: green;
   max-height: 50px;
   z-index: 2;
 }
@@ -416,7 +418,8 @@ body {
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #ED8D8D;
+  // border-left: 3px solid #ED8D8D;
+    border-left: 3px solid yellow;
   z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {
@@ -439,7 +442,8 @@ body {
   height: 40px;
 }
 .timeline hr {
-  border-top: 3px solid #ED8D8D;
+  // border-top: 3px solid #ED8D8D;
+    border-top: 3px solid blue;
   margin: 0;
   top: 17px;
   position: relative;
