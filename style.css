@@ -399,7 +399,7 @@ body {
   padding: 15px 20px;
   border-radius: 50%;
   // background-color: #ED8D8D;
-    background-color: red;
+    background-color: #222f5b;
   // color: #4D4545;
     color: green;
   max-height: 50px;
@@ -419,7 +419,7 @@ body {
   content: "";
   position: absolute;
   // border-left: 3px solid #ED8D8D;
-    border-left: 3px solid yellow;
+    border-left: 3px solid 222f5b;
   z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {
@@ -443,7 +443,7 @@ body {
 }
 .timeline hr {
   // border-top: 3px solid #ED8D8D;
-    border-top: 3px solid blue;
+    border-top: 3px solid #222f5b;
   margin: 0;
   top: 17px;
   position: relative;
@@ -453,7 +453,7 @@ body {
   overflow: hidden;
 }
 .timeline .corner {
-  border: 3px solid #ED8D8D;
+  border: 3px solid #222f5b;
   width: 100%;
   position: relative;
   border-radius: 15px;
