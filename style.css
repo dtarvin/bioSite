@@ -140,8 +140,9 @@ blockquote p {
     text-align: center;
 }
 
-#container2 {
+.container2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
   
