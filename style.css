@@ -1,213 +1,243 @@
 * {
     box-sizing: border-box;
-  }
-  
-  html {
-      font-size: 16px;
-  }
-  body {
-      color: #222f5b;
-      background-color: #946b2d;
-      height: 100%;
 }
-#container {     
-      padding-left: 30px;
-      padding-right: 30px;
-  }
-  h1 {
-      font-family: 'Marck Script', cursive;
-      font-size: 3.052em;
-  }
-  h2, h3 {
-      font-family: 'Alegreya', serif;
-  }
-  h2 {
-      font-size: 2.441em;
-  }
-  h3 {
-      font-size: 1.953em;
-  }
-  p {
-      font-family: 'Dosis', sans-serif;
-      font-size: 1.25em;
-      width: 80%;
-    
-      margin: auto;
-  }
-  a {
-      color: #222f5b;
-      list-style-type: none;
-      text-decoration: none;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  a:visited {
-      color: #946b2d;
-  }
-  .bethany {
-      float: left;
-      margin: auto;
-  }
-  .bethany>figcaption {
-    text-align: center;
-  }
-  .navbar {
-    background-color: #5d5d5d;
-  }
-  .navbar-nav {
-      background-color: #5d5d5d;
-      color: #946b2d;
-  }
-  .intro-headings {
-      padding: 5em;
-  }
-  #timeline {
-      clear: both;
-  }
   
-  .main {
-      background-image: url("https://dtarvin.github.io/bioSite/images/Ravenclaw_Crest_opaque.png");
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: right;
-      display: grid;
-  /*     border: 1px dotted red; */
+html {
+    font-size: 16px;
+}
+  
+body {
+    color: #222f5b;
+    background-color: #946b2d;
     height: 100%;
-  }
+}
+
+#container {     
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 3.052em;
+}
+
+h2, h3 {
+    font-family: 'Alegreya', serif;
+}
+
+h2 {
+    font-size: 2.441em;
+}
+
+h3 {
+    font-size: 1.953em;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.25em;
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    color: #222f5b;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #946b2d;
+}
+
+.bethany {
+    float: left;
+    margin: auto;
+}
+
+.bethany>figcaption {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #5d5d5d;
+}
+
+.navbar-nav {
+    background-color: #5d5d5d;
+    color: #946b2d;
+}
+
+.intro-headings {
+    padding: 5em;
+}
+
+#timeline {
+    clear: both;
+}
   
-  .main>.intro-para {
-      grid-column: 2;
-      grid-row: 1;
-      /* place-items: center left; */
-      place-items: middle right;
-  /*     border: 1px double blue; */
-      width: 40%;
-      padding-top: 20%;
-  }
+.main {
+    background-image: url("https://dtarvin.github.io/bioSite/images/Ravenclaw_Crest_opaque.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: grid;
+    /*     border: 1px dotted red; */
+    height: 100%;
+}
   
-  .school-logo {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 20px;
-  }
+.main>.intro-para {
+    grid-column: 2;
+    grid-row: 1;
+    /* place-items: center left; */
+    place-items: middle right;
+    /*     border: 1px double blue; */
+    width: 40%;
+    padding-top: 20%;
+}
   
-  .section-header {
-      text-align: center;
-  }
+.school-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
   
-  blockquote {
-      background: #5d5d5d;
-      border-radius: 5px;
-      width: 40%;
-      margin: auto;
-  }
-  /* cite {
+.section-header {
+    text-align: center;
+}
+  
+blockquote {
+    background: #5d5d5d;
+    border-radius: 5px;
     width: 40%;
     margin: auto;
-  } */
+}
+
+/* cite {
+    width: 40%;
+    margin: auto;
+} */
   
-  blockquote p {
-      padding: 15px;
-  }
+blockquote p {
+    padding: 15px;
+}
   
-  .expando {
+.expando {
     display: none;
-  }
+}
   
-  .expando:target {
+.expando:target {
     display: block;
-  }
+}
   
-  .click-stmt {
+.click-stmt {
     text-align: center;
-  }
+}
   
 .drawing {
-  display: flex;
+    display: flex;
 }
 
 /* Timeline code written by CP Lepage, January 24, 2018, modified by David Tarvin, October 30, 2018 */
 
 .circle {
-  font-weight: bold;
-  padding: 15px 20px;
-  border-radius: 50%;
-  /* background-color: #ED8D8D; */
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50%;
+    /* background-color: #ED8D8D; */
     background-color: #222f5b;
-  /* color: #4D4545; */
+    /* color: #4D4545; */
     color: #946b2d;
-  max-height: 50px;
-  z-index: 2;
+    max-height: 50px;
+    z-index: 2;
 }
 
 .how-it-works.row {
-  display: flex;
+    display: flex;
 }
+
 .how-it-works.row .col-2 {
-  display: inline-flex;
-  align-self: stretch;
-  align-items: center;
-  justify-content: center;
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
 }
+
 .how-it-works.row .col-2::after {
-  content: "";
-  position: absolute;
-  /* border-left: 3px solid #ED8D8D; */
+    content: "";
+    position: absolute;
+    /* border-left: 3px solid #ED8D8D; */
     border-left: 3px solid 222f5b;
-  z-index: 1;
+    z-index: 1;
 }
+
 .how-it-works.row .col-2.bottom::after {
-  height: 50%;
-  left: 50%;
-  top: 50%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
 }
+
 .how-it-works.row .col-2.full::after {
-  height: 100%;
-  left: calc(50% - 3px);
+    height: 100%;
+    left: calc(50% - 3px);
 }
+
 .how-it-works.row .col-2.top::after {
-  height: 50%;
-  left: 50%;
-  top: 0;
+    height: 50%;
+    left: 50%;
+    top: 0;
 }
 
 .timeline div {
-  padding: 0;
-  height: 40px;
+    padding: 0;
+    height: 40px;
 }
+
 .timeline hr {
-  /* border-top: 3px solid #ED8D8D; */
+    /* border-top: 3px solid #ED8D8D; */
     border-top: 3px solid #222f5b;
-  margin: 0;
-  top: 17px;
-  position: relative;
+    margin: 0;
+    top: 17px;
+    position: relative;
 }
+
 .timeline .col-2 {
-  display: flex;
-  overflow: hidden;
+    display: flex;
+    overflow: hidden;
 }
+
 .timeline .corner {
-  border: 3px solid #222f5b;
-  width: 100%;
-  position: relative;
-  border-radius: 15px;
+    border: 3px solid #222f5b;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
 }
+
 .timeline .top-right {
-  left: 50%;
-  top: -50%;
+    left: 50%;
+    top: -50%;
 }
+
 .timeline .left-bottom {
-  left: -50%;
-  top: calc(50% - 3px);
+    left: -50%;
+    top: calc(50% - 3px);
 }
+
 .timeline .top-left {
-  left: -50%;
-  top: -50%;
+    left: -50%;
+    top: -50%;
 }
+
 .timeline .right-bottom {
-  left: 50%;
-  top: calc(50% - 3px);
+    left: 50%;
+    top: calc(50% - 3px);
 }
 /* End of code written by CP Lepage */
