@@ -139,10 +139,17 @@ blockquote p {
 .click-stmt {
     text-align: center;
 }
+
+#container2 {
+    display: flex;
+    justify-content: space-around;
+}
   
+/*
 .drawing {
     display: flex;
 }
+*/
 
 /* Timeline code written by CP Lepage, January 24, 2018, modified by David Tarvin, October 30, 2018 */
 
