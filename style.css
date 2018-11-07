@@ -9,6 +9,8 @@
       color: #222f5b;
       background-color: #946b2d;
       height: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
   }
   h1 {
       font-family: 'Marck Script', cursive;
@@ -124,6 +126,8 @@
   display: flex;
 }
 
+/* Timeline code written by CP Lepage, January 24, 2018, modified by David Tarvin, October 30, 2018 */
+
 .circle {
   font-weight: bold;
   padding: 15px 20px;
@@ -204,3 +208,4 @@
   left: 50%;
   top: calc(50% - 3px);
 }
+/* End of code written by CP Lepage */
