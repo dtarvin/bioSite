@@ -9,6 +9,8 @@
       color: #222f5b;
       background-color: #946b2d;
       height: 100%;
+}
+#container {     
       padding-left: 30px;
       padding-right: 30px;
   }
