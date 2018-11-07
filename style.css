@@ -16,7 +16,6 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
-    justify-content: space-around;
 }
 
 h1 {
@@ -237,7 +236,7 @@ blockquote p {
 }
 
 .timeline .right-bottom {
-    left: 50%;
-    top: calc(50% - 3px);
+  left: 50%;
+  top: calc(50% - 3px);
 }
 /* End of code written by CP Lepage */
