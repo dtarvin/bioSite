@@ -119,10 +119,10 @@ blockquote {
     margin: auto;
 }
 
-/* cite {
-    width: 40%;
-    margin: auto;
-} */
+cite {
+    
+  text-align: center;
+}
   
 blockquote p {
     padding: 15px;
