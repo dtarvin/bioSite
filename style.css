@@ -101,7 +101,7 @@ a:visited {
     padding-top: 20%;
 }
   
-.school-logo {
+.school-logo, .family-pic, .friends-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
