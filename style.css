@@ -10,6 +10,7 @@ body {
     color: #222f5b;
     background-color: #946b2d;
     height: 100%;
+  padding-top: 50px;
 }
 
 #container {     
@@ -66,11 +67,16 @@ a:visited {
 
 .navbar {
     background-color: #5d5d5d;
+  
 }
 
 .navbar-nav {
     background-color: #5d5d5d;
     color: #946b2d;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
 }
 
 .intro-headings {
@@ -79,6 +85,10 @@ a:visited {
 
 #timeline {
     clear: both;
+}
+
+#home, #timeline, #schooling, #activities, #interests, #family, #friends {
+  padding-top: 70px;
 }
   
 .main {
