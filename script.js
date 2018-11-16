@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 function toggle_visibility(cl){
   console.log("========>cl is ", cl);
   var elements=document.getElementsByClassName("showInfo");
@@ -13,4 +14,5 @@ $("nav").find("a").click(function(e) {
     $("html, body").animate({
         scrollTop: $(section).offset().top
     });
+});
 });
