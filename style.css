@@ -123,10 +123,17 @@ a:visited {
     padding: 20px;
 }
   
+.container2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
 .section-header {
     text-align: center;
 }
-  
+
 blockquote {
     background: #5d5d5d;
     border-radius: 5px;
@@ -145,12 +152,6 @@ blockquote p {
   
 .click-stmt {
     text-align: center;
-}
-
-.container2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 /* Timeline code written by CP Lepage, January 24, 2018, modified by David Tarvin, October 30, 2018 */
