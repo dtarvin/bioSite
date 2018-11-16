@@ -1,4 +1,4 @@
-function toggle_visibility(cl, imgId) {
+function toggle_visibility(cl) {
     var elements = document.getElementsByClassName("showInfo");
     for (var i = 0; i < elements.length; i++) {
         elements[i].style.display = "none";
