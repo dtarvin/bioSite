@@ -6,7 +6,7 @@ function toggle_visibility(cl, imgId) {
     document.getElementById(cl).style.display = "block";
 }
 
-$("nav").find("a").click(function (e) {
+$("nav").find("a").click(function(e) {
     e.preventDefault();
     var section = $(this).attr("href");
     $("html, body").animate({
