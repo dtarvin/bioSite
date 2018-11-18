@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+// $( document ).ready(function() {
 function toggle_visibility(cl){
   console.log("========>cl is ", cl);
   var elements=document.getElementsByClassName("showInfo");
@@ -15,4 +15,4 @@ $("nav").find("a").click(function(e) {
         scrollTop: $(section).offset().top
     });
 });
-});
+// });
