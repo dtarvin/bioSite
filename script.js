@@ -17,3 +17,6 @@ $("nav").find("a").click(function(e) {
 });
 // });
 //
+$("#school1").click(function() {
+  $("#schoolInfo1").fadeIn("slow");
+})
